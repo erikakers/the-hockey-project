@@ -5,5 +5,31 @@
   "main": "index.js",
   "repository": "https://github.com/erikakers/the-hockey-project.git",
   "author": "Erik Akers <erikakers@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier {src,server}/**/*.{js,json,md,scss,css,less} --write",
+    "start:dev": "ts-node src/server/main.ts"
+  },
+  "husky": {
+    "pre-commit": "npm run format"
+  },
+  "dependencies": {
+    "@nestjs/common": "^5.3.11",
+    "@nestjs/core": "^5.3.11",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/webpack": "^4.4.14",
+    "awesome-typescript-loader": "^5.2.1",
+    "husky": "^1.1.1",
+    "prettier": "^1.14.3",
+    "ts-node": "^7.0.1",
+    "tslint": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "typescript": "^3.1.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
