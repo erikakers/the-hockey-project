@@ -1,0 +1,9 @@
+{
+  "name": "hockey-project",
+  "version": "0.0.0",
+  "description": "The hockey stats project thingy.",
+  "main": "index.js",
+  "repository": "https://github.com/erikakers/the-hockey-project.git",
+  "author": "Erik Akers <erikakers@gmail.com>",
+  "license": "MIT"
+}
