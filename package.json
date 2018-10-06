@@ -1,6 +1,6 @@
 {
   "name": "hockey-project",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "The hockey stats project thingy.",
   "main": "index.js",
   "repository": "https://github.com/erikakers/the-hockey-project.git",
